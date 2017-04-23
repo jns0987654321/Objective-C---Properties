@@ -13,6 +13,7 @@
 		5257D51E1EAD306500D62742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5257D51C1EAD306500D62742 /* Main.storyboard */; };
 		5257D5201EAD306500D62742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5257D51F1EAD306500D62742 /* Assets.xcassets */; };
 		5257D5231EAD306500D62742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5257D5211EAD306500D62742 /* LaunchScreen.storyboard */; };
+		5257D52C1EAD309500D62742 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5257D52B1EAD309500D62742 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5257D51F1EAD306500D62742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5257D5221EAD306500D62742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5257D5241EAD306500D62742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5257D52A1EAD309500D62742 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5257D52B1EAD309500D62742 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		5257D5121EAD306500D62742 /* Properties */ = {
 			isa = PBXGroup;
 			children = (
+				5257D52A1EAD309500D62742 /* Person.h */,
+				5257D52B1EAD309500D62742 /* Person.m */,
 				5257D5161EAD306500D62742 /* AppDelegate.h */,
 				5257D5171EAD306500D62742 /* AppDelegate.m */,
 				5257D5191EAD306500D62742 /* ViewController.h */,
@@ -153,6 +158,7 @@
 			files = (
 				5257D51B1EAD306500D62742 /* ViewController.m in Sources */,
 				5257D5181EAD306500D62742 /* AppDelegate.m in Sources */,
+				5257D52C1EAD309500D62742 /* Person.m in Sources */,
 				5257D5151EAD306500D62742 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
